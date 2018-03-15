@@ -10,7 +10,6 @@ public class AnagramsTest {
     @Test
     public void should_return_empty_given_empty_string() {
         List<String> result = Anagrams.game("");
-//        List<String> actual = Arrays.asList("a", "b", "c");
         assertThat(result).contains("");
     }
 
